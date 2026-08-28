@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>David Zeng · Private</title>
+<meta name="description" content="David Zeng connects B2B buyers looking for a vendor with sellers who already do the work." />
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap");
+  :root{
+    /* ---- KNOBS (filled from interview) ---- */
+    --accent:#5a3320;--accent-soft:#7a4a30;--bg:#fbfaf6;--bg-soft:#f3ede2;
+    /* ---- LOCKED editorial DNA — never edit ---- */
+    --ink:#14161a;--ink-soft:#2a2d33;--sub:#5a5e66;--rule:#e3e3e6;--rule-soft:#eeeef0;
+    --serif:"Charter","Iowan Old Style","Apple Garamond","Baskerville","Georgia","Times New Roman",serif;
+    --mono:"JetBrains Mono","SF Mono","Menlo","Consolas",monospace;
+  }
+  *{box-sizing:border-box} html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--serif);font-size:18px;line-height:1.62;font-feature-settings:"kern" 1,"liga" 1,"onum" 1;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:640px;margin:0 auto;padding:0 24px}
+  .label{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--sub)}
+  header{border-bottom:1px solid var(--rule)}
+  .topbar{display:flex;align-items:baseline;justify-content:space-between;padding:22px 0;gap:16px}
+  .brand{font-family:var(--mono);font-size:13px;letter-spacing:.04em}
+  .brand b{color:var(--accent);font-weight:600}
+  nav a{font-family:var(--mono);font-size:12px;letter-spacing:.04em;color:var(--sub);text-decoration:none;margin-left:18px}
+  nav a:hover{color:var(--accent)}
+  .hero{padding:72px 0 56px}
+  .hero h1{font-weight:600;font-size:38px;line-height:1.18;letter-spacing:-.018em;margin:0 0 22px}
+  .hero h1 .em{color:var(--accent)}
+  .hero .meta{font-family:var(--mono);font-size:13px;color:var(--sub)}
+  section{padding:46px 0;border-top:1px solid var(--rule-soft)}
+  .sec-label{display:block;margin-bottom:8px}
+  .sec-note{font-family:var(--mono);font-size:11px;color:var(--sub);margin:0 0 24px;letter-spacing:.02em}
+  .feed{list-style:none;margin:0;padding:0}
+  .feed li{display:flex;gap:14px;align-items:baseline;padding:11px 0;border-bottom:1px solid var(--rule-soft)}
+  .feed li:last-child{border-bottom:0}
+  .feed .dot{color:var(--accent);font-family:var(--mono);font-size:12px;flex:none}
+  .feed .txt{font-size:16.5px;color:var(--ink-soft)}
+  .feed .src{color:var(--sub);font-style:italic;font-size:15px;margin-top:16px}
+  .how{margin:0;padding:0;list-style:none}
+  .how li{padding:18px 0;border-bottom:1px solid var(--rule-soft)}
+  .how li:last-child{border-bottom:0}
+  .how .pair{font-family:var(--mono);color:var(--accent);font-size:13px;letter-spacing:.02em}
+  .how .desc{display:block;margin-top:6px;color:var(--ink-soft)}
+  .openly{background:var(--bg-soft);border:1px solid var(--rule);border-radius:3px;padding:18px 20px;margin-top:26px;font-size:16px;color:var(--ink-soft)}
+  .openly b{color:var(--ink);font-weight:600}
+  .essays{margin:0;padding:0;list-style:none}
+  .essays li{padding:9px 0}
+  .essays a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--rule)}
+  .essays a:hover{color:var(--accent);border-color:var(--accent)}
+  .cta{background:var(--bg-soft);border-top:1px solid var(--rule)}
+  .cta-inner{padding:56px 0 64px}
+  .cta h2{font-weight:500;font-size:24px;margin:14px 0 10px}
+  .scarcity{font-family:var(--mono);font-size:13px;color:var(--accent-soft);margin:0 0 24px}
+  .cta p{color:var(--ink-soft);font-size:17px;max-width:52ch}
+  .book{display:inline-block;margin-top:10px;font-family:var(--mono);font-size:14px;letter-spacing:.02em;color:#fff;background:var(--accent);padding:13px 22px;text-decoration:none;border-radius:2px}
+  .book:hover{background:var(--accent-soft)}
+  footer{border-top:1px solid var(--rule)}
+  .foot{padding:26px 0 40px;font-family:var(--mono);font-size:12px;color:var(--sub);display:flex;justify-content:space-between}
+  .foot a{color:var(--sub);text-decoration:none}
+  @media (max-width:560px){.hero h1{font-size:28px}nav a:first-child{margin-left:0}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap topbar">
+    <span class="brand">David Zeng <b>· Private</b></span>
+    <nav><a href="#tracking">Tracking</a><a href="#work">How I work</a><a href="#contact">Contact</a></nav>
+  </div>
+</header>
+<main class="wrap">
+  <div class="hero">
+    <h1>David Zeng connects <span class="em">B2B buyers looking for a vendor</span> with sellers who already do the work.</h1>
+    <p class="meta">Independent. Building this lane in the open, 2026&ndash;.</p>
+  </div>
+
+  <!-- LIVE SIGNAL — real public-data pulls. NEVER fabricate an item. -->
+  <section id="tracking">
+    <span class="label sec-label">Live signal</span>
+    <p class="sec-note">French tech hiring. I read it for teams trying to stand up LLM work.</p>
+    <ul class="feed">
+      <li><span class="dot">→</span><span class="txt">A French bank posted a 3-year seat to industrialize RAG and agents</span></li>
+      <li><span class="dot">→</span><span class="txt">A Paris wealth platform is putting an MCP agent on a 10-year-old core</span></li>
+      <li><span class="dot">→</span><span class="txt">A Paris healthtech opened a Head of AI role this month</span></li>
+      <li><span class="dot">→</span><span class="txt">An edtech is standing up an AI squad, lead plus engineer</span></li>
+    </ul>
+    <p class="feed src">Sourced from public French tech job boards.</p>
+  </section>
+
+  <!-- HOW I WORK — the match as a service. LOCKED sec-note. -->
+  <section id="work">
+    <span class="label sec-label">How I work</span>
+    <p class="sec-note">No deal to point at yet. So here&rsquo;s exactly what I put in motion.</p>
+    <ul class="how">
+      <li>
+        <span class="pair">Buyer looking for a vendor &rarr; seller who already does it</span>
+        <span class="desc">You know the job. I find someone who already does it.</span>
+      </li>
+      <li>
+        <span class="pair">Seller who already does it &rarr; the buyer looking now</span>
+        <span class="desc">If you already do that job, I find the people trying to buy it.</span>
+      </li>
+    </ul>
+    <!-- LOCKED white-label line — never reword. -->
+    <p class="openly">
+      <b>Building in the open.</b> I&rsquo;m working alongside myoProcess, a vetted B2B partner trusted across $1B+ in transactions, while I make my first introductions.
+    </p>
+  </section>
+
+  <section id="writing">
+    <span class="label sec-label">Writing</span>
+    <p class="sec-note">What I see in this market that outsiders miss.</p>
+    <ul class="essays">
+      <li><a href="thesis-1.html">A Warm Intro Is Not the Product</a></li>
+      <li><a href="thesis-2.html">Why the Inbox Stays Cold</a></li>
+    </ul>
+  </section>
+</main>
+
+<section class="cta" id="contact">
+  <div class="wrap cta-inner">
+    <span class="label">Work with David</span>
+    <h2>Tell me where you&rsquo;re at and what you&rsquo;re trying to fix.</h2>
+    <p class="scarcity">Taking my first 3 counterparties in this lane.</p>
+    <p>If you need a B2B vendor, or you already are one, message me.</p>
+    <a class="book" href="https://cal.com/david-zeng/intro-call-with-david" target="_blank" rel="noopener">Book a 20-minute call &rarr;</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot"><span>&copy; 2026 David Zeng</span><a href="mailto:david@connectzeng.com">david@connectzeng.com</a></div>
+</footer>
+</body>
+</html>
