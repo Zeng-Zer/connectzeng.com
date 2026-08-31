@@ -2,6 +2,154 @@
   "version": 1,
   "receipts": [
     {
+      "createdAt": "2026-08-31T18:31:19.643Z",
+      "bankId": "david-coding",
+      "documentId": "pi-session:cc02f8ee86805ace",
+      "queueJobId": "0f1fdba0-8884-40e5-99ed-62040396026f",
+      "updateMode": "append",
+      "source": "queue",
+      "context": "Pi coding session for repo \"david-zeng-site\", session 2026-08-31T18-14-16-289Z_01a05907-75e1-767d-b89b-34df3d40b47e.jsonl",
+      "tags": [
+        "source:pi",
+        "harness:pi",
+        "project:github-com-zeng-zer-connectzeng-com",
+        "repo:david-zeng-site-2fd057681079",
+        "session:cc02f8ee86805ace"
+      ],
+      "outcome": {
+        "itemsCount": 1,
+        "operations": 1
+      }
+    },
+    {
+      "createdAt": "2026-08-31T18:31:16.666Z",
+      "bankId": "david-coding",
+      "documentId": "pi-explicit:cc02f8ee86805ace:a384dfcd10b13d2a",
+      "queueJobId": "d8d5d35e-748e-4066-8dc2-45be48a2777e",
+      "updateMode": "replace",
+      "source": "tool",
+      "context": "User wanted the offer under David Zeng bigger, or maybe bold. Applied both: 20px muted → 24px 600 ink.",
+      "tags": [
+        "source:pi",
+        "harness:pi",
+        "project:github-com-zeng-zer-connectzeng-com",
+        "repo:david-zeng-site-2fd057681079",
+        "session:cc02f8ee86805ace"
+      ],
+      "outcome": {
+        "itemsCount": 1,
+        "operations": 1
+      }
+    },
+    {
+      "createdAt": "2026-08-31T18:30:02.225Z",
+      "bankId": "david-coding",
+      "documentId": "pi-explicit:cc02f8ee86805ace:61a39510349b1fae",
+      "queueJobId": "447c2216-ef30-44e8-985f-f91c6c8eaad3",
+      "updateMode": "replace",
+      "source": "tool",
+      "context": "User said the shortened hero was still long and attached a screenshot of the four-line wrap.",
+      "tags": [
+        "source:pi",
+        "harness:pi",
+        "project:github-com-zeng-zer-connectzeng-com",
+        "repo:david-zeng-site-2fd057681079",
+        "session:cc02f8ee86805ace",
+        "knowledge:decision"
+      ],
+      "outcome": {
+        "itemsCount": 1,
+        "operations": 1
+      }
+    },
+    {
+      "createdAt": "2026-08-31T18:28:31.230Z",
+      "bankId": "david-coding",
+      "documentId": "pi-explicit:cc02f8ee86805ace:a5cc6d3337552bb3",
+      "queueJobId": "10e77d4c-7d82-4fab-9dca-da3063c7da5f",
+      "updateMode": "replace",
+      "source": "tool",
+      "context": "User said the long hero title felt unattractive and floated a two-size type treatment.",
+      "tags": [
+        "source:pi",
+        "harness:pi",
+        "project:github-com-zeng-zer-connectzeng-com",
+        "repo:david-zeng-site-2fd057681079",
+        "session:cc02f8ee86805ace",
+        "knowledge:decision",
+        "knowledge:convention"
+      ],
+      "outcome": {
+        "itemsCount": 1,
+        "operations": 1
+      }
+    },
+    {
+      "createdAt": "2026-08-31T18:26:46.008Z",
+      "bankId": "david-coding",
+      "documentId": "pi-explicit:cc02f8ee86805ace:449bdbdd9764f2ed",
+      "queueJobId": "d7eeff44-9469-4ba9-8c9f-d796a3c395b8",
+      "updateMode": "replace",
+      "source": "tool",
+      "context": "User asked to drop the pre-proof apology from How I work.",
+      "tags": [
+        "source:pi",
+        "harness:pi",
+        "project:github-com-zeng-zer-connectzeng-com",
+        "repo:david-zeng-site-2fd057681079",
+        "session:cc02f8ee86805ace",
+        "knowledge:convention"
+      ],
+      "outcome": {
+        "itemsCount": 1,
+        "operations": 1
+      }
+    },
+    {
+      "createdAt": "2026-08-31T18:25:03.605Z",
+      "bankId": "david-coding",
+      "documentId": "pi-explicit:cc02f8ee86805ace:c252324612134b76",
+      "queueJobId": "54e699b3-f1d4-47b6-b02a-388b571a47af",
+      "updateMode": "replace",
+      "source": "tool",
+      "context": "User challenged the all-jobs Live signal and asked whether the feed should include other business markets.",
+      "tags": [
+        "source:pi",
+        "harness:pi",
+        "project:github-com-zeng-zer-connectzeng-com",
+        "repo:david-zeng-site-2fd057681079",
+        "session:cc02f8ee86805ace",
+        "knowledge:decision",
+        "knowledge:convention"
+      ],
+      "outcome": {
+        "itemsCount": 1,
+        "operations": 1
+      }
+    },
+    {
+      "createdAt": "2026-08-31T18:22:11.801Z",
+      "bankId": "david-coding",
+      "documentId": "pi-explicit:cc02f8ee86805ace:b65919a297e560a5",
+      "queueJobId": "574fcbde-e0f1-477d-bb02-7afd6c5f4c61",
+      "updateMode": "replace",
+      "source": "tool",
+      "context": "User said the French hiring Live signal did not make sense, asked for something generic covering France and US, then chose two real tech headlines like \"Oracle fires 100\" plus two other signals, and pointed at ~/Dev/connector/ for the Maya-style named public-event feed.",
+      "tags": [
+        "source:pi",
+        "harness:pi",
+        "project:github-com-zeng-zer-connectzeng-com",
+        "repo:david-zeng-site-2fd057681079",
+        "session:cc02f8ee86805ace",
+        "knowledge:decision",
+        "knowledge:component"
+      ],
+      "outcome": {
+        "itemsCount": 1,
+        "operations": 1
+      }
+    },
+    {
       "createdAt": "2026-08-28T22:50:50.796Z",
       "bankId": "david-coding",
       "documentId": "pi-session:381e20241ddf1bb4",
