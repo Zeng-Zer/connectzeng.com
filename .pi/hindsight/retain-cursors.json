@@ -24,35 +24,21 @@
       ]
     },
     "cc02f8ee86805ace": {
-      "index": 10,
-      "chainHash": "051000e3b4bdf8ff0b6eda3a08063707fd3d1372109441f98f2841d27448ff59",
-      "idChainHash": "65743d58d89d45e52044758f546034fd13a4f994bc270cdfa7844f74eb3f4b6e",
+      "index": 3,
+      "chainHash": "821f516a70e04b424678a33c859eaded857a88267331a5ff799c070c30512ce0",
+      "idChainHash": "f7d062d662826ed95869851db06bb539b402047baee53a00e0aa35bfbe98265d",
       "tailStart": 0,
       "messageIds": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
         "",
         "",
         "",
         ""
       ],
       "fingerprints": [
-        "a917e589ba2eaff69c2038da4f8f8deeac585ff30f5faaedfae3277369c88a5a",
-        "e4b998b5f9edcc29368a1e4c504c39d37305e96c070bfb024320fb092a76868d",
-        "150727412ddd591fa9d63ae77917defe2aa42482bf9f459f617653ee1ce9b4ce",
-        "5b47b40728375d664a8d4018c4ac0128d92f32f1ca33cfec478f7000b4d6052e",
-        "b7240189805836e139ad24c367dd2f837eea2bc4db5a83692a0a3c2f72353183",
-        "03edc06d07366506f4bbfff42c696e85acb3eadff6eab69f9c56ca6f83037a79",
-        "4b6fb3996770feb24939242a89f1e89b5385133d03eb84d3fa925fcae1bb96e9",
-        "523fe7d473b70d42b8d497d7c58de04d551025056db718cca0f50446a535288e",
-        "a1b6ab53fe28d94d39f38eea78e5a338e292ab6cdc8d68f9cb8b576a7bbe3361",
-        "fefac12b561e3b365ee136207c50708c2909b501b78e80a74be28726fe13f5fd",
-        "ab24f926657c41a57a3570c125abf6b3f15edfefdcd87bdf1b91b67f031d00f8"
+        "196fd3fee6469d5c3a60017a97faf5121df0f4e5c0510e6f1c4508985461a221",
+        "ec998cf0702af7e32f8ddfc22061c1345622cdbbc476cc802098b8ae165902c2",
+        "0e93fe64242bbbd22a412537f24d3a0cc544ba0109926dabd96153797738ee5f",
+        "068d39b51606ca87d5baa795dae27f3fe6b077bf5f42146a33836d87dda717ed"
       ]
     }
   }

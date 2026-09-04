@@ -2,10 +2,10 @@
   "version": 1,
   "receipts": [
     {
-      "createdAt": "2026-09-04T10:17:28.753Z",
+      "createdAt": "2026-09-04T10:36:33.912Z",
       "bankId": "david-coding",
       "documentId": "pi-session:cc02f8ee86805ace",
-      "queueJobId": "0a5fff57-574f-423c-b2c6-bfb24faf79fa",
+      "queueJobId": "4aea8b32-fd40-4621-95ff-f34a5379b44b",
       "updateMode": "append",
       "source": "queue",
       "context": "Pi coding session for repo \"david-zeng-site\", session 2026-08-31T18-14-16-289Z_01a05907-75e1-767d-b89b-34df3d40b47e.jsonl",
