@@ -2,13 +2,116 @@
   "version": 1,
   "receipts": [
     {
-      "createdAt": "2026-08-31T18:31:19.643Z",
+      "createdAt": "2026-09-04T10:17:28.753Z",
       "bankId": "david-coding",
       "documentId": "pi-session:cc02f8ee86805ace",
-      "queueJobId": "0f1fdba0-8884-40e5-99ed-62040396026f",
+      "queueJobId": "0a5fff57-574f-423c-b2c6-bfb24faf79fa",
       "updateMode": "append",
       "source": "queue",
       "context": "Pi coding session for repo \"david-zeng-site\", session 2026-08-31T18-14-16-289Z_01a05907-75e1-767d-b89b-34df3d40b47e.jsonl",
+      "tags": [
+        "source:pi",
+        "harness:pi",
+        "project:github-com-zeng-zer-connectzeng-com",
+        "repo:david-zeng-site-2fd057681079",
+        "session:cc02f8ee86805ace"
+      ],
+      "outcome": {
+        "itemsCount": 1,
+        "operations": 1
+      }
+    },
+    {
+      "createdAt": "2026-09-02T22:25:54.866Z",
+      "bankId": "david-coding",
+      "documentId": "pi-explicit:cc02f8ee86805ace:eaf9d05c1b8e6797",
+      "queueJobId": "03aee54a-0f19-42f3-8ec8-a599a291ebba",
+      "updateMode": "replace",
+      "source": "tool",
+      "context": "User asked to use new logo from Downloads: ChatGPT Image Sep 3, 2026, 12_14_59 AM.png",
+      "tags": [
+        "source:pi",
+        "harness:pi",
+        "project:github-com-zeng-zer-connectzeng-com",
+        "repo:david-zeng-site-2fd057681079",
+        "session:cc02f8ee86805ace"
+      ],
+      "outcome": {
+        "itemsCount": 1,
+        "operations": 1
+      }
+    },
+    {
+      "createdAt": "2026-08-31T22:04:09.950Z",
+      "bankId": "david-coding",
+      "documentId": "pi-explicit:cc02f8ee86805ace:55ff131bba671627",
+      "queueJobId": "b6a52caf-a4e6-44bd-a273-ffb316fdab0e",
+      "updateMode": "replace",
+      "source": "tool",
+      "context": "User provided their logo at ~/Downloads/ChatGPT Image Aug 31, 2026, 11_56_46 PM.png and asked to add it.",
+      "tags": [
+        "source:pi",
+        "harness:pi",
+        "project:github-com-zeng-zer-connectzeng-com",
+        "repo:david-zeng-site-2fd057681079",
+        "session:cc02f8ee86805ace"
+      ],
+      "outcome": {
+        "itemsCount": 1,
+        "operations": 1
+      }
+    },
+    {
+      "createdAt": "2026-08-31T18:52:17.373Z",
+      "bankId": "david-coding",
+      "documentId": "pi-explicit:cc02f8ee86805ace:a95e34662432285d",
+      "queueJobId": "1cd3881f-aa39-4ba6-8c97-83553779ffe4",
+      "updateMode": "replace",
+      "source": "tool",
+      "context": "User asked if sellers should be colored too in the hero title. Applied .em to 'sellers'.",
+      "tags": [
+        "source:pi",
+        "harness:pi",
+        "project:github-com-zeng-zer-connectzeng-com",
+        "repo:david-zeng-site-2fd057681079",
+        "session:cc02f8ee86805ace"
+      ],
+      "outcome": {
+        "itemsCount": 1,
+        "operations": 1
+      }
+    },
+    {
+      "createdAt": "2026-08-31T18:39:22.826Z",
+      "bankId": "david-coding",
+      "documentId": "pi-explicit:cc02f8ee86805ace:0b8ea12b40e4009f",
+      "queueJobId": "e0814535-8ba9-4415-b7e2-a4c051cb838a",
+      "updateMode": "replace",
+      "source": "tool",
+      "context": "User asked to search for a premium services theme after the Beven restyle felt childish. Research consensus: 2–3 colors, ivory/charcoal/bronze, restraint. Applied across index.html, thesis-1.html, thesis-2.html.",
+      "tags": [
+        "source:pi",
+        "harness:pi",
+        "project:github-com-zeng-zer-connectzeng-com",
+        "repo:david-zeng-site-2fd057681079",
+        "session:cc02f8ee86805ace",
+        "knowledge:decision",
+        "knowledge:convention",
+        "knowledge:feature-work"
+      ],
+      "outcome": {
+        "itemsCount": 1,
+        "operations": 1
+      }
+    },
+    {
+      "createdAt": "2026-08-31T18:34:22.188Z",
+      "bankId": "david-coding",
+      "documentId": "pi-explicit:cc02f8ee86805ace:47687fe9dcb6e1c2",
+      "queueJobId": "a576ad56-f222-4c9b-bfb2-da22429315be",
+      "updateMode": "replace",
+      "source": "tool",
+      "context": "User asked to make david-zeng-site more modern like https://beven.app/. Applied Beven visual system, not Beven product chrome.",
       "tags": [
         "source:pi",
         "harness:pi",
