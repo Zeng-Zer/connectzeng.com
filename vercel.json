@@ -1,0 +1,9 @@
+{
+  "cleanUrls": true,
+  "redirects": [
+    { "source": "/thesis-1.html", "destination": "/warm-intro", "permanent": true },
+    { "source": "/thesis-1", "destination": "/warm-intro", "permanent": true },
+    { "source": "/thesis-2.html", "destination": "/cold-inbox", "permanent": true },
+    { "source": "/thesis-2", "destination": "/cold-inbox", "permanent": true }
+  ]
+}
