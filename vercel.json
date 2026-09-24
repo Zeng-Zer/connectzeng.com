@@ -1,6 +1,7 @@
 {
   "cleanUrls": true,
   "redirects": [
+    { "source": "/:path*", "has": [{ "type": "host", "value": "www.connectzeng.com" }], "destination": "https://connectzeng.com/:path*", "permanent": true },
     { "source": "/thesis-1.html", "destination": "/warm-intro", "permanent": true },
     { "source": "/thesis-1", "destination": "/warm-intro", "permanent": true },
     { "source": "/thesis-2.html", "destination": "/cold-inbox", "permanent": true },
